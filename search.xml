@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Party Lamps]]></title>
+    <url>%2F2019%2F02%2F21%2FParty%20Lamps%2F</url>
+    <content type="text"><![CDATA[Party LampsDesciption在IOI98的节日宴会上，我们有$N(10&lt;=N&lt;=100)$盏彩色灯，他们分别从1到N被标上号码。 这些灯都连接到四个按钮： 按钮1：当按下此按钮，将改变所有的灯：本来亮着的灯就熄灭，本来是关着的灯被点亮。 按钮2：当按下此按钮，将改变所有奇数号的灯。 按钮3：当按下此按钮，将改变所有偶数号的灯。 按钮4：当按下此按钮，将改变所有序号是$3*K+1(K&gt;=0)$的灯。例如：$1,4,7…$ 一个计数器C记录按钮被按下的次数。当宴会开始，所有的灯都亮着，此时计数器C为0。 你将得到计数器$C(0&lt;=C&lt;=10000)$上的数值和经过若干操作后某些灯的状态。写一个程序去找出所有灯最后可能的与所给出信息相符的状态，并且没有重复。 FormatInput 不会有灯会在输入中出现两次。 第一行: N。 第二行: C最后显示的数值。 第三行: 最后亮着的灯,用一个空格分开，以-1为结束。 第四行: 最后关着的灯,用一个空格分开，以-1为结束。 Output 每一行是所有灯可能的最后状态(没有重复)。每一行有N个字符，第1个字符表示1号灯，最后一个字符表示N号灯。0表示关闭，1表示亮着。这些行必须从小到大排列（看作是二进制数）。 如果没有可能的状态，则输出一行’IMPOSSIBLE’。 ExampleInput1234101-17 -1 Output123000000000001010101010110110110 Analyse这道题可以发现一个操作如果操作了两次就相当于没有操作，所以第一个方法出现了！枚举此操作是否生效，并排除掉不能满足总按键次数的方法就AC了。 （并没有代码） 复杂度虽然满足题目要求了，但是我们还可以继续尝试优化对吧，毕竟题目都是在魔改中变得变态的。因为只有两个两个和三个三个的操作，那我们就可以把每六个看成一个整体，将序列拆成很多长度为六的序列，特判一下就可以在$O(n)$的时间内干翻这道题了（章口就莱）。 1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253#include &lt;bits/stdc++.h&gt;#define RI register intusing namespace std;int n, c, a, t1, t2, p, co, open[105], clse[105];int sit[9][8] = &#123; &#123;0, 0, 0, 0, 0, 0, 0&#125;, &#123;0, 0, 0, 0, 0, 0, 0&#125;, &#123;0, 0, 0, 1, 1, 1, 0&#125;, &#123;0, 0, 1, 0, 1, 0, 1&#125;, &#123;0, 0, 1, 1, 0, 1, 1&#125;, &#123;1, 1, 0, 0, 1, 0, 0&#125;, &#123;1, 1, 0, 1, 0, 1, 0&#125;, &#123;1, 1, 1, 0, 0, 0, 1&#125;, &#123;1, 1, 1, 1, 1, 1, 1&#125;&#125;;int main() &#123; ios::sync_with_stdio(0); cin &gt;&gt; n &gt;&gt; c; while ("tuliweiAKIOI") &#123; cin &gt;&gt; a; if (a != -1) open[++t1] = a; else break; &#125; while ("tuliweiAKIOI") &#123; cin &gt;&gt; a; if (a != -1) clse[++t2] = a; else break; &#125; if(!c) &#123; if (t2) cout &lt;&lt; "IMPOSSIBLE"; else for (RI i = 1; i &lt;= n; ++i) cout &lt;&lt; '1'; cout &lt;&lt; '\n'; return 0; &#125; for (RI i = 1; i &lt;= 8; ++i) &#123; for (RI j = 1; j &lt;= t1; ++j) if (!sit[i][(open[j] - 1) % 6 + 1]) p = 1; for (RI j = 1; j &lt;= t2; ++j) if (sit[i][(clse[j] - 1) % 6 + 1]) p = 1; if (!p) &#123; if (c == 1 &amp;&amp; (i == 2 || i == 5 || i == 7)) goto A; for (RI j = 1; j &lt;= n; ++j) cout &lt;&lt; sit[i][(j - 1) % 6 + 1]; cout &lt;&lt; '\n', co = 1; A:; &#125; else p = 0; &#125; if (!co) cout &lt;&lt; "IMPOSSIBLE\n";&#125; 完结撒花！]]></content>
+      <categories>
+        <category>Problem</category>
+      </categories>
+      <tags>
+        <tag>Search</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Ubuntu Theme]]></title>
     <url>%2F2019%2F02%2F21%2FUbuntu-Theme%2F</url>
     <content type="text"><![CDATA[Ubuntu Theme入手 Ubuntu 时用的是NoiLinux（黑暗回忆），后来经大佬介绍转入 Ubuntu Budgie 18.04 LTS ．第一眼看上去界面相当精致，改下配色之后更是把 kewth 的 gnome 和 xfce 吊起来打． $$Pocillo$$ DownloadBudgie 的主题可以在应用商店里面下载，个人比较推荐 Pocillo 和 Material Design (Adapta)，但是 Adapta 的标题字体非常丑，建议自己调，其它的部分还是相当养眼的． $$Material\,Design\,(Adapta)$$ Modify默认提供的配置比较 s**t（尽管下了新主题），个人对于颜色喜欢黑色系，可以选择 Deep-Dark-Fantasy Pocillo-dark-slim． 默认图标样式不丑，但是过于黯淡，我选择了 Papirus-Adapta-Nokto，其实 Papirus 门下的主题只有细微的差别，其细致入微的考虑大大地提升了用户的体验． 所以我推荐用Budgie啦．]]></content>
