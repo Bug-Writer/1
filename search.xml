@@ -3,14 +3,9 @@
   <entry>
     <title><![CDATA[Ubuntu Theme]]></title>
     <url>%2F2019%2F02%2F21%2FUbuntu-Theme%2F</url>
-    <content type="text"><![CDATA[Ubuntu Theme入手 Ubuntu 时用的是NoiLinux（黑暗回忆），后来经大佬介绍转入 Ubuntu Budgie 18.04 LTS ．第一眼看上去界面相当精致，改下配色之后更是把 kewth 的 gnome 和 xfce 吊起来打． PocilloBudgie 的主题可以在应用商店里面下载，个人比较推荐 Pocillo 和 Material Design (Adapta)，但是 Adapta 的标题字体非常丑，建议自己调，其它的部分还是相当养眼的． Material Design (Adapta)默认提供的配置比较 s**t（尽管下了新主题），个人对于颜色喜欢黑色系，可以选择 Deep-Dark-Fantasy Pocillo-dark-slim． 默认图标样式不丑，但是过于黯淡，我选择了Papirus-Adapta-Nokto，其实 Papirus 门下的主题只有细微的差别，其细致入微的考虑大大地提升了用户的体验．]]></content>
+    <content type="text"><![CDATA[Ubuntu Theme入手 Ubuntu 时用的是NoiLinux（黑暗回忆），后来经大佬介绍转入 Ubuntu Budgie 18.04 LTS ．第一眼看上去界面相当精致，改下配色之后更是把 kewth 的 gnome 和 xfce 吊起来打． $$Pocillo$$ DownloadBudgie 的主题可以在应用商店里面下载，个人比较推荐 Pocillo 和 Material Design (Adapta)，但是 Adapta 的标题字体非常丑，建议自己调，其它的部分还是相当养眼的． $$Material\,Design\,(Adapta)$$ Modify默认提供的配置比较 s**t（尽管下了新主题），个人对于颜色喜欢黑色系，可以选择 Deep-Dark-Fantasy Pocillo-dark-slim． 默认图标样式不丑，但是过于黯淡，我选择了 Papirus-Adapta-Nokto，其实 Papirus 门下的主题只有细微的差别，其细致入微的考虑大大地提升了用户的体验． 所以我推荐用Budgie啦．]]></content>
       <tags>
         <tag>Ubuntu</tag>
       </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2019%2F02%2F18%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
   </entry>
 </search>
