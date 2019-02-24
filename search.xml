@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Another Meaning]]></title>
+    <url>%2F20190224%2FAnother-Meaning%2F</url>
+    <content type="text"><![CDATA[Another MeaningDescription给出一段话$s$，和一个单词$t$，已知单词t别有深意，也就是说有两个意思，求$s$可能有多少种意思。答案对$1e9+7$取模。 FormatInput一个整数$n$，表示数据组数接下来就是$n$组$s$和$t$。 Output$n$行，对应每组数据的答案 ExampleInput1234567894hehehehehewoquxizaolehehewoquxizaolehehehehehehewoyaoqugenbierenliaotianlewanan Output12343251 Explanation原字样表示取原意，加粗字体表示取深意第一组：hehehe，hehehe，hehehe第三组：hehehehe，hehehehe，hehehehe，hehehehe，hehehehe Data$strlen(t)\,&lt;=\,strlen(s)\,&lt;=\,100000，\,n\,&lt;=\,10$ 仅有小写字符]]></content>
+      <categories>
+        <category>Problem</category>
+      </categories>
+      <tags>
+        <tag>DP</tag>
+        <tag>Hash</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Fibonacci Subsequence]]></title>
     <url>%2F20190223%2FFibonacci%20Subsequence%2F</url>
     <content type="text"><![CDATA[Fibonacci SubsequenceMusic!! Description斐波那契序列${A}$满足：$A_i = A_{i - 1} + A_{i - 2}$给出一个序列${C}$，求其中的最长斐波那契子序列 FormatInput一个整数$N$，代表序列长度$N$个数，第$i$个代表$C_i$ Output一个整数，代表子序列的长度 ExampleInput12101 1 3 -1 2 0 5 -1 -1 8 Output15 Explanation$1\,\,-1\,\,0\,\,-1\,\,-1$ 满足条件 Data$10\%$：满足$N\,∈\,[1,\,100]$$100\%$：$N &lt;= 3000,\,abs(C_i)\,&lt;=\,10^9$ 等待填坑。。。。。。]]></content>
