@@ -2072,7 +2072,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fff;
+  background: #ddfa42;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3382,8 +3382,22 @@ body {
 .with-love {
   color: #ff71a8;
 }
+.links-of-author {
+  margin-top: 9px;
+}
 .post-button .btn:hover {
-  background-image: linear-gradient(#000080, #191970);
+  background-image: linear-gradient(#87ceff, #7ec0ee);
+}
+.links-of-blogroll-title {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: rgba(7,179,155,0.75);
+  margin-left: 6px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.sidebar a {
+  color: #6b6b6b;
 }
 .post-body h2 {
   border-left: 4px solid #a166ab;
@@ -3397,11 +3411,11 @@ body {
 }
 .site-title {
   font-family: Courier New;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: bold;
   color: #fff;
   line-height: 50px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 .posts-expand .post-title-link::before {
   background-image: linear-gradient(#008b45, #00ee76);
