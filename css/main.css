@@ -2072,7 +2072,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #006540;
+  background: #fff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3382,6 +3382,9 @@ body {
 .with-love {
   color: #ff71a8;
 }
+.post-button .btn:hover {
+  background-image: linear-gradient(#000080, #191970);
+}
 .post-body h2 {
   border-left: 4px solid #a166ab;
   margin-left: -36px;
@@ -3402,6 +3405,12 @@ body {
 }
 .posts-expand .post-title-link::before {
   background-image: linear-gradient(#008b45, #00ee76);
+}
+pre .addition {
+  background: #e6ffed;
+}
+pre .deletion {
+  background: #ffeef0;
 }
 @-moz-keyframes heartAnimate {
   0%, 100% {
