@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[如何深度优化Hexo]]></title>
     <url>%2F20190317%2F%E5%A6%82%E4%BD%95%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%8C%96Hexo%2F</url>
-    <content type="text"><![CDATA[将Hexo变得更加优美主题自带样式note标签这里选择的是最简单的方式，不会有奇怪的显示bug default 1&lt;div class="note default"&gt;&lt;p&gt;default&lt;/p&gt;&lt;/div&gt; primary 1&lt;div class="note primary"&gt;&lt;p&gt;primary&lt;/p&gt;&lt;/div&gt; success 1&lt;div class="note success"&gt;&lt;p&gt;success&lt;/p&gt;&lt;/div&gt; info 1&lt;div class="note info"&gt;&lt;p&gt;info&lt;/p&gt;&lt;/div&gt; warning 1&lt;div class="note warning"&gt;&lt;p&gt;warning&lt;/p&gt;&lt;/div&gt; danger 1&lt;div class="note danger"&gt;&lt;p&gt;danger&lt;/p&gt;&lt;/div&gt; danger no-icon 1&lt;div class="note danger no-icon"&gt;&lt;p&gt;danger no-icon&lt;/p&gt;&lt;/div&gt;]]></content>
+    <content type="text"><![CDATA[将Hexo变得更加优美本篇博文长期维护，如果找到了新的优化马上会放上来啦 主题自带样式note标签这里选择的是最简单的方式，不会有奇怪的显示bug default 1&lt;div class="note default"&gt;&lt;p&gt;default&lt;/p&gt;&lt;/div&gt; primary 1&lt;div class="note primary"&gt;&lt;p&gt;primary&lt;/p&gt;&lt;/div&gt; success 1&lt;div class="note success"&gt;&lt;p&gt;success&lt;/p&gt;&lt;/div&gt; info 1&lt;div class="note info"&gt;&lt;p&gt;info&lt;/p&gt;&lt;/div&gt; warning 1&lt;div class="note warning"&gt;&lt;p&gt;warning&lt;/p&gt;&lt;/div&gt; danger 1&lt;div class="note danger"&gt;&lt;p&gt;danger&lt;/p&gt;&lt;/div&gt; danger no-icon 1&lt;div class="note danger no-icon"&gt;&lt;p&gt;danger no-icon&lt;/p&gt;&lt;/div&gt;]]></content>
       <categories>
         <category>skills</category>
       </categories>
