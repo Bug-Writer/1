@@ -2072,7 +2072,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2dffff;
+  background: #ff5470;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3425,6 +3425,12 @@ pre .addition {
 }
 pre .deletion {
   background: #ffeef0;
+}
+.header-inner {
+  opacity: 0.9;
+}
+.main-inner {
+  opacity: 0.9;
 }
 about style,
 .about-page {
